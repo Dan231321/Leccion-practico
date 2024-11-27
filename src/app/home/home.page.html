@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <!--  alinear el avatar y el botón -->
+      <div style="display: flex; align-items: center;">
+        <!--  el ion-button -->
+        <ion-button expand="none" (click)="doSomething()"> boton mejorado </ion-button>
+        
+        <!--  el ion-avatar -->
+        <ion-avatar style="margin-left: 10px;">
+          <img src="https://wallpapers.com/images/featured/mortal-kombat-scorpion-ke2zt8mj99zrd9ji.jpg" alt="Avatar de usuario">
+        </ion-avatar>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div>
+</ion-content>
